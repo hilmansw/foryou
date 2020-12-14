@@ -13,7 +13,7 @@ if (url.searchParams.get('by') != null) {
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire("Halo, Sayangku", "Aku ada pertanyaan nich buat kamu sayang", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
-      Swal.fire("Awas aja kalau kamu boong", "", "error").then(function () {
+      Swal.fire("Jangan boong loh yaa hihi ", "", "error").then(function () {
 
         const {
           value: name
