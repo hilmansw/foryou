@@ -11,7 +11,7 @@ if (url.searchParams.get('by') != null) {
 
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hallo, Sayangku", "Aku ada pertanyaan nich buat kamu sayang", "question").then(function () {
+  Swal.fire("Halo, Sayangku", "Aku ada pertanyaan nich buat kamu sayang", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
       Swal.fire("Awas aja kalau kamu boong", "", "error").then(function () {
 
@@ -70,7 +70,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                         })
                       } else if (result.isDenied) {
                         Swal.fire('Yahhh, emang ngga kangen sama aku nich :(', '', 'error').then(function () {
-                          Swal.fire('Yaudaa dech okee sayang :((')
+                          Swal.fire('Yaudaa dech okee sayang :(')
                         })
                       }
                     })
