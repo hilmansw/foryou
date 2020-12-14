@@ -18,7 +18,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
         const {
           value: name
         } = Swal.fire({
-          title: 'Masukin nama kamu dulu',
+          title: 'Masukin nama depan kamu dulu',
           input: 'text',
           inputLabel: '',
           showCancelButton: true,
