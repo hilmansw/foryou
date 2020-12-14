@@ -11,9 +11,9 @@ if (url.searchParams.get('by') != null) {
 
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hallo Pacarku", "Aku ada pertanyaan nih buat kamu yangg", "question").then(function () {
+  Swal.fire("Hallo, Sayangku", "Aku ada pertanyaan nich buat kamu sayang", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
-      Swal.fire("Awas aja kalau kamu bohong", "", "error").then(function () {
+      Swal.fire("Awas aja kalau kamu boong", "", "error").then(function () {
 
         const {
           value: name
@@ -24,7 +24,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
           showCancelButton: true,
           inputValidator: (value) => {
             if (!value) {
-              return 'Isi dulu dong beb'
+              return 'Isi dulu dong sayang'
             } else {
               nama = value;
             }
@@ -53,7 +53,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                   inputValue: 50
                 }).then((e) => {
                   val = e.value
-                  Swal.fire(`Makasih ya udah sayang sama ${sender} ${val}%`).then(function () {
+                  Swal.fire(`Makasi yaa uda sayang sama ${sender} ${val}%`).then(function () {
                     Swal.fire({
                       title: `Sekarang ${nama} kangen ga sama ${sender}?`,
                       showDenyButton: true,
@@ -63,7 +63,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                     }).then((result) => {
                       /* Read more about isConfirmed, isDenied below */
                       if (result.isConfirmed) {
-                        Swal.fire(`Huhu iya ${sender} juga kangen ${nama} , makasihhh yaa`).then(function () {
+                        Swal.fire(`Huhu iya ${sender} juga kangen ${nama} , makasi yaa`).then(function () {
                           Swal.fire('Terakhir deh sayang').then(function () {
                             Swal.fire('Coba klik ikon hati di paling bawah dong')
                           })
