@@ -55,7 +55,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                   val = e.value
                   Swal.fire(`Makasi yaa uda sayang ${val}% sama ${sender} :)`).then(function () {
                     Swal.fire({
-                      title: `Sekarang ${nama} kangen ga sama ${sender}?`,
+                      title: `Sekarang ${nama} kangen ngga sama ${sender}?`,
                       showDenyButton: true,
                       showCancelButton: false,
                       confirmButtonText: `Kangen :(`,
