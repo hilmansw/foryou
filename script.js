@@ -65,7 +65,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                       if (result.isConfirmed) {
                         Swal.fire(`Huhu iyaa ${sender} juga kangen ${nama}, makasi yaa :)`).then(function () {
                           Swal.fire('Terakhir dech sayang').then(function () {
-                            Swal.fire('Coba klik ikon hati di paling bawah dong')
+                            Swal.fire('Coba kamu klik ikon hati di paling bawah dong sayang')
                           })
                         })
                       } else if (result.isDenied) {
